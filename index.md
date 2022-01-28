@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-You can use the [editor on GitHub](https://github.com/GRGomes13/grgomes.git.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+  <title>Alura-Decodificador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="titulo">Código Secreto</h1>
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto" name = "lb1" id = "lb1">Apenas letras minúsculas, sem acento</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Insira o texto aqui">
+        <input class="btn" type="submit" value="CRIPTOGRAFAR!" id="btn-cripto">
+        <input class="btn" type="submit" value="DESCRIPTOGRAFAR!" id="btn-descripto">
+      </form>
+    </section>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <section class="msg box">
+      <label for="texto-msg" name = "lb2" id="lb2">Mensagem criptografada:</label>
+      <input class="text-input" type="text" name= "texto-msg" id="msg"></input>
+      <input class="btn" type="submit" value="COPIAR" id="btn-copy">
+    </section>
+  </main>
 
-### Markdown
+   <footer class="rodape">
+      <p>Desenvolvido por: Gabriel Ribeiro | 2022<br>
+      <a href="https://github.com/GRGomes13">Github:GRGomes</p></a>
+  </footer>
+  <script src="script.js"></script>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GRGomes13/grgomes.git.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
